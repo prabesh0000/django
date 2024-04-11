@@ -5,5 +5,3 @@ from .models import catagory
 # Register your models here.
 
 
-admin.site.register(post)
-admin.site.register(catagory)

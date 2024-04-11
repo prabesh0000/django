@@ -12,5 +12,5 @@ urlpatterns = [
 
 
 
-path ('', views.show_blog)
+
 ]

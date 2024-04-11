@@ -1,14 +1,7 @@
 from django.shortcuts import render , HttpResponse
 
-from .models import*
 
 
-def show_blog(request):
-    blog = post.objects.all()
-    context= {
-        'blog':blog
-    }
-    return render(request, 'myapp/home.html',context)
 
 # Create your views here.
 
