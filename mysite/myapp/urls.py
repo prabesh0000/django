@@ -5,9 +5,9 @@ from myapp import views
 # urls dispatcher process
 urlpatterns = [
  path ('', views.index ,  name = 'myapp'),
- path ('services', views.services ,  name = 'myapp'),
+ path ('services', views.services ,  name = 'services'),
  path ('about', views.about ,  name = 'about'),
- path ('contact', views.about ,  name = 'about'),
+ path ('contact', views.about ,  name = 'contact'),
 
 
 
