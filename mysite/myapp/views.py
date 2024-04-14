@@ -13,6 +13,7 @@ def index(request):
     return render (request, 'index.html' , context)
 def about (request):
     return render  (request, 'about.html')
+    # return HttpResponse ("hello")
 def services (request):
     return render ( request, 'services.html')
 def contact (request):
